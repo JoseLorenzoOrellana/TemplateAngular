@@ -14,7 +14,6 @@ import { ClientsSectionComponent } from './clients-section/clients-section.compo
 import { TestimonialsSectionComponent } from './testimonials-section/testimonials-section.component';
 import { TeamSectionComponent } from './team-section/team-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
-import { BoxComponent } from './service/box/box.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { BoxComponent } from './service/box/box.component';
     TestimonialsSectionComponent,
     TeamSectionComponent,
     ContactSectionComponent,
-    BoxComponent
   ],
   imports: [
     BrowserModule,
